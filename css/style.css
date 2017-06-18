@@ -1,0 +1,401 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body.index {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+}
+
+body {
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  background-color: #f0efef;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+.home {
+  text-align: center;
+  height: 500px;
+}
+
+header h1 {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: left;
+  color: #FFF;
+  padding: 20px 60px;
+}
+
+.home h2 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFF;
+  text-align: center;
+  padding: 0;
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.button {
+  font-weight: 800;
+  font-size: 14px;
+  text-decoration: none;
+  color: #121212;
+  background-color: #f9e42e;
+  padding: 6px 40px;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  width: 180px;
+}
+
+.benefits {
+  background-color: #f0efef;
+  width: 100%;
+  padding-left: 60px;
+  display: block;
+}
+
+.benefits h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+  padding-top: 70px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 13px;
+  color: #606161;
+}
+
+.benefits p {
+  margin-top: 10px;
+  margin-right: 300px;
+}
+
+
+.benefits ul {
+  margin-top: 20px;
+  font-size: 13px;
+  padding-bottom: 70px;
+}
+
+.benefits li {
+  color: #606161;
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right:200px;
+}
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: cover;
+  width: 100%;
+}
+
+blockquote {
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  padding: 140px 250px 10px 250px;
+}
+
+.testimonial span {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFF;
+  display: block;
+  padding-bottom: 140px;
+}
+
+.stripe {
+  background-color: #f9e42e;
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.button.sign-up {
+  background-color: #033048;
+  color: #FFF;
+  display: block;
+}
+
+.button.sign-up:hover{
+  background-color: #121212;
+}
+
+footer h1 {
+  padding-top: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: #121212;
+  height: 250px;
+  margin: 0;
+  width: 100%;
+}
+
+footer ul {
+  margin-top: 20px;
+}
+
+footer li {
+  display: inline-block;
+}
+
+li a img {
+  height: 20px;
+  margin: 10px;
+}
+
+footer h1 {
+  font-weight: 800;
+  font-size: 24px;
+  text-align: center;
+  color: #f9e42e;
+}
+
+footer span {
+  font-size: 9px;
+  color: #FFF;
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+}
+
+.primary_nav {
+  background-color: #033048;
+  float: left;
+  width: 100%;
+}
+
+.primary_nav li {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 18px 10px;
+}
+
+.primary_nav a {
+  text-decoration: none;
+  color: #f9e42e;
+}
+
+.primary_nav a:hover {
+  color: #FFF;
+}
+
+
+.primary_nav h1 {
+  float: left;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  padding-left: 60px;
+}
+
+.side {
+  float: left;
+  width: 24%;
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
+.clear {
+  clear: left;
+}
+
+#container {
+  width: 100%;
+}
+
+.main_container {
+  width: 100%;
+}
+
+.main h2 {
+  font-weight: 600;
+  font-size: 40px;
+  color: #033048;
+  text-align: left;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.main img {
+  width: 100%;
+  height: auto;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+}
+
+.categories a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+  text-decoration: none;
+}
+
+.categories a:hover {
+  font-weight: 600;
+}
+
+.categories ul {
+  list-style-type: none;
+}
+
+.about_relaxr {
+  margin-top: 30px;
+}
+
+.about_relaxr p {
+  font-size: 22px;
+}
+
+.about_relaxr a {
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #033048;
+}
+
+.about_relaxr a:hover {
+  font-weight: 700;
+}
+
+.ad {
+  width: 240px;
+  height: 400px;
+  background-color: #FFF;
+  margin-top: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.ad a {
+  display:block;
+  font-size: 32px;
+  font-weight: 600;
+  color: #033048;
+  text-decoration: none;
+}
+
+.main p {
+  font-size: 24px;
+  padding-top: 30px;
+}
+
+.main p::first-letter {
+  font-size: 60px;
+  font-weight: 600;
+  color: #033048;
+  padding-right: 12px;
+  float:left;
+}
+
+.main span {
+  display: block;
+  text-align: right;
+  margin-top: 40px;
+}
+
+.main a {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  text-decoration: none;
+}
+
+.main a:hover {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.post_1 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #033048;
+  margin-bottom: 50px;
+}
+
+.post_2 {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #033048;
+  margin-bottom: 100px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

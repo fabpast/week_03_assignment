@@ -110,6 +110,11 @@ header h1 {
   width: 180px;
 }
 
+.button:hover {
+  color: #FFF;
+  background-color: #121212;
+}
+
 .benefits {
   background-color: #f0efef;
   width: 100%;
